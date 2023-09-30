@@ -12,7 +12,7 @@ export const CardList = (props) => (
     monsters = this.state,monsters(array ) */
 
 <div className="card-list"> { props.monsters.map(monster => 
-(<Card key={monster.id} monster={monster}>
+(<Card key={monster.id} monster={monster} name="">
   
       
 </Card>))
