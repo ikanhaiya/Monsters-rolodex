@@ -27,6 +27,8 @@ class App extends Component{
     
   }
 
+    {/* context of this will be app.js file because in case of arrow function context of this is set in which arrow function was defined*/}
+
   handleChange = (e) => {
     
     this.setState({searchField: e.target.value});
